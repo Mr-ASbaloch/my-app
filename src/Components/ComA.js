@@ -1,8 +1,12 @@
 import React from 'react'
+import { ComB } from './ComB'
 
-const ComA = () => {
+const ComA = ( ) => {
   return (
+    <>
     <div>ComA</div>
+    <ComB />
+    </>
   )
 }
 
