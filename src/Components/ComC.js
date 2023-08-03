@@ -8,12 +8,12 @@ export const ComC = ( ) => {
     <>
 
     <div>ComC</div>
-    <h1>{appData.data}
-    </h1>
-    <h1 > Name :{appData.name.name}
-    </h1>
-    <h1> Age :{appData.name.age}
-    </h1>
+    <p>{appData.data}
+    </p>
+    <p > Name :{appData.name.name}
+    </p>
+    <p> Age :{appData.name.age}
+    </p>
     </>
   )
 }

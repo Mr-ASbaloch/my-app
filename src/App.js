@@ -1,6 +1,7 @@
 import { useState, createContext } from "react";
 import "./App.css";
 import ComA from "./Components/ComA";
+import UseReduse from "./Components/UseReduse";
 
 const AppState = createContext();
 
@@ -9,9 +10,12 @@ function App() {
   const [name , setName] = useState ({name: "ahmad" , age:20})
   return (
     <div className="comp">
+
       <AppState.Provider value={{data , name}}>
       <ComA  />
       </AppState.Provider>
+
+      <UseReduse/>
       
     </div>
   );
